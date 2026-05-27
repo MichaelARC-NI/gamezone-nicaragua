@@ -363,3 +363,23 @@ footer { position: relative; z-index: 1; text-align: center; padding: 30px 20px;
     .tab-btn { font-size: 0.78rem; padding: 8px 14px; }
     .info-card { padding: 22px; }
 }
+
+
+/* ===== AVATAR STYLES ===== */
+.avatar-header {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+    border: 3px solid var(--accent);
+    box-shadow: 0 0 25px var(--glow);
+    animation: float 3s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.avatar-header:hover {
+    box-shadow: 0 0 35px var(--accent);
+}

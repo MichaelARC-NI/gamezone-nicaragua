@@ -204,3 +204,17 @@ const obs = new IntersectionObserver((entries) => {
     });
 }, { threshold: 0.3 });
 obs.observe(document.getElementById('stats-diamantes'));
+
+
+// ===== AVATAR INTERACTIVE PULSE =====
+document.addEventListener('DOMContentLoaded', () => {
+    const avatar = document.querySelector('.avatar-header');
+    if (avatar) {
+        avatar.addEventListener('click', () => {
+            avatar.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                avatar.style.transform = '';
+            }, 100);
+        });
+    }
+});
