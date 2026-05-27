@@ -342,7 +342,7 @@
             filter: drop-shadow(0 0 10px var(--glow));
         }
         .card-title {
-            font-size: 1.7rem;
+            font-size: 1.6rem;
             font-weight: 800;
             font-family: var(--font-display);
             margin-bottom: 4px;
@@ -464,7 +464,7 @@
             .game-icon-header { font-size: 3rem; }
             .grid-container { gap: 14px; padding: 0 12px 30px; }
             .card { padding: 18px; }
-            .card-title { font-size: 1.4rem; }
+            .card-title { font-size: 1.3rem; }
             .price { font-size: 1.3rem; }
             .tab-btn { font-size: 0.78rem; padding: 8px 14px; }
             .info-card { padding: 22px; }
@@ -510,7 +510,7 @@
     <div class="section active" id="section-diamantes">
         <div class="section-header">
             <h2>💎 Diamantes Free Fire</h2>
-            <p>Tus recargas de Free Fire con sus bonos de Garena del 10% oficiales</p>
+            <p>Estructura oficial de recargas directas con ID en Nicaragua</p>
         </div>
         <div class="stats-bar" id="stats-diamantes">
             <div class="stat-item">
@@ -531,16 +531,16 @@
 
     <div class="section" id="section-delta">
         <div class="section-header">
-            <h2>🔫 Delta Force</h2>
-            <p>Recarga tus Delta Coins y accede a los mejores beneficios</p>
+            <h2>🔫 Delta Coins</h2>
+            <p>Recargas oficiales para Delta Force con estructura de bonos oficial</p>
         </div>
         <div class="grid-container" id="tienda-delta"></div>
     </div>
 
     <div class="section" id="section-haikyu">
         <div class="section-header">
-            <h2>🏐 Haikyu!! Fly High</h2>
-            <p>Domina la cancha con los mejores paquetes del juego</p>
+            <h2>🏐 Star Gems</h2>
+            <p>Paquetes de gemas oficiales para dominas las canchas de Haikyu!! Fly High</p>
         </div>
         <div class="grid-container" id="tienda-haikyu"></div>
     </div>
@@ -748,36 +748,36 @@
             });
         }
 
-        // Diamantes (CORREGIDOS A TU FORMATO ORIGINAL)
+        // 💎 Free Fire (ESTRUCTURA DE BONOS REALES DE PAGOSTORE)
         const diamantes = [
-            { titulo: '100 + 10 Diamantes', desc: 'Paquete Básico + Bono 10%', precio: 40 },
-            { titulo: '310 + 31 Diamantes', desc: 'Paquete Estándar + Bono 10%', precio: 120 },
-            { titulo: '520 + 52 Diamantes', desc: 'Paquete Recomendado + Bono 10%', precio: 200 },
-            { titulo: '1,060 + 106 Diamantes', desc: 'Paquete Avanzado + Bono 10%', precio: 400 },
-            { titulo: '2,180 + 218 Diamantes', desc: 'Paquete Épico + Bono 10%', precio: 800 },
-            { titulo: '5,600 + 560 Diamantes', desc: 'Paquete Legendario + Bono 10%', precio: 2030 }
+            { titulo: '100 + 10 Diamantes', desc: 'Paquete Básico + Bono Oficial', precio: 40 },
+            { titulo: '310 + 31 Diamantes', desc: 'Paquete Estándar + Bono Oficial', precio: 120 },
+            { titulo: '520 + 52 Diamantes', desc: 'Paquete Recomendado + Bono Oficial', precio: 200 },
+            { titulo: '1,060 + 106 Diamantes', desc: 'Paquete Avanzado + Bono Oficial', precio: 400 },
+            { titulo: '2,180 + 218 Diamantes', desc: 'Paquete Épico + Bono Oficial', precio: 800 },
+            { titulo: '5,600 + 560 Diamantes', desc: 'Paquete Legendario + Bono Oficial', precio: 2030 }
         ];
         renderCards('tienda-diamantes', diamantes, '💎', 'Free Fire');
 
-        // Delta Force
+        // 🔫 Delta Force (CORREGIDO CON ESTRUCTURA DE BONOS DELTA COINS)
         const delta = [
-            { titulo: '60 Delta Coins', desc: 'Paquete básico', precio: 55 },
-            { titulo: '330 Delta Coins', desc: '<strong>+30</strong> Bonus incluido', precio: 280 },
-            { titulo: '700 Delta Coins', desc: '<strong>+80</strong> Bonus incluido', precio: 560 },
-            { titulo: '1,500 Delta Coins', desc: '<strong>+200</strong> Bonus incluido', precio: 1100 },
-            { titulo: '3,000 Delta Coins', desc: '<strong>+500</strong> Bonus incluido', precio: 2100 },
-            { titulo: '8,000 Delta Coins', desc: '<strong>+2,000</strong> Bonus incluido', precio: 5200 }
+            { titulo: '60 Delta Coins', desc: 'Paquete Inicial Sin Bono', precio: 55 },
+            { titulo: '300 + 20 Delta Coins', desc: 'Paquete Bronce + Bono Oficial', precio: 280 },
+            { titulo: '680 + 70 Delta Coins', desc: 'Paquete Plata + Bono Oficial', precio: 560 },
+            { titulo: '1,280 + 200 Delta Coins', desc: 'Paquete Oro + Bono Oficial', precio: 1100 },
+            { titulo: '3,280 + 670 Delta Coins', desc: 'Paquete Platino + Bono Oficial', precio: 2100 },
+            { titulo: '6,480 + 1,620 Delta Coins', desc: 'Paquete Supremo + Bono Oficial', precio: 5200 }
         ];
         renderCards('tienda-delta', delta, '🔫', 'Delta Force');
 
-        // Haikyu!! Fly High
+        // 🏐 Haikyu!! Fly High (CORREGIDO CON EL FORMATO OFICIAL DE STAR GEMS)
         const haikyu = [
-            { titulo: '60 Coins', desc: 'Paquete inicial', precio: 50 },
-            { titulo: '300 Coins', desc: '<strong>+30</strong> Bonus', precio: 250 },
-            { titulo: '650 Coins', desc: '<strong>+80</strong> Bonus', precio: 500 },
-            { titulo: '1,400 Coins', desc: '<strong>+200</strong> Bonus', precio: 1050 },
-            { titulo: '3,000 Coins', desc: '<strong>+500</strong> Bonus', precio: 2100 },
-            { titulo: '7,000 Coins', desc: '<strong>+2,000</strong> Bonus', precio: 4800 }
+            { titulo: '60 Star Gems', desc: 'Paquete Inicial Sin Bono', precio: 50 },
+            { titulo: '300 + 30 Star Gems', desc: 'Paquete Juvenil + Bono Oficial', precio: 250 },
+            { titulo: '980 + 100 Star Gems', desc: 'Paquete Profesional + Bono Oficial', precio: 500 },
+            { titulo: '1,980 + 220 Star Gems', desc: 'Paquete de Élite + Bono Oficial', precio: 1050 },
+            { titulo: '3,280 + 400 Star Gems', desc: 'Paquete Campeón + Bono Oficial', precio: 2100 },
+            { titulo: '6,480 + 900 Star Gems', desc: 'Paquete Leyenda + Bono Oficial', precio: 4800 }
         ];
         renderCards('tienda-haikyu', haikyu, '🏐', 'Fly High');
 
