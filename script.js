@@ -156,7 +156,7 @@ renderCards('tienda-diamantes', diamantes, '💎', 'Free Fire');
 
 // 🔫 2. FUERZA DELTA (Datos exactos de tu video en Pagostore)
 const delta = [
-    { titulo: '18 + 2 Delta Coins', desc: 'Paquete inicial sin recarga extra', precio: 20 },
+    { titulo: '18 + 2 Delta Coins', desc: 'Bono promocional Pagostore', precio: 20 },
     { titulo: '30 + 3 Delta Coins', desc: 'Bono promocional Pagostore', precio: 35 },
     { titulo: '60 + 6 Delta Coins', desc: 'Bono promocional Pagostore', precio: 65 },
     { titulo: '300 + 52 Delta Coins', desc: 'Bono promocional Pagostore', precio: 300 },
