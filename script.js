@@ -150,7 +150,7 @@ const diamantes = [
     { titulo: '520 + 52 Diamantes', desc: 'Bono Garena 10% incluido', precio: 200 },
     { titulo: '1,060 + 106 Diamantes', desc: 'Bono Garena 10% incluido', precio: 400 },
     { titulo: '2,180 + 218 Diamantes', desc: 'Bono Garena 10% incluido', precio: 800 },
-    { titulo: '5,600 + 560 Diamantes', desc: 'Bono Garena 10% incluido', precio: 2030 }
+    { titulo: '5,600 + 560 Diamantes', desc: 'Bono Garena 10% incluido', precio: 2000 }
 ];
 renderCards('tienda-diamantes', diamantes, '💎', 'Free Fire');
 
